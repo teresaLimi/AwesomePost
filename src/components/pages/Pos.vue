@@ -104,7 +104,7 @@ export default {
         document.getElementById('order-list').style.height = orderHeight + 'px';
     },
     created: function () {
-        this.$http.get('../../../static/data/allGoods.json')
+        this.$http.get('../static/data/allGoods.json')
         .then((response) => {
             this.allGoodsItems = response.data;
         })
