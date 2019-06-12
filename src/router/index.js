@@ -10,7 +10,7 @@ import Install from '@/components/pages/Install';
 Vue.use(Router);
 
 export default new Router({
-    mode: 'history',
+    mode: 'hash',
     linkActiveClass: 'nav-active',
     routes: [
         {
