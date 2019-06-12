@@ -11,7 +11,7 @@
             </el-input>
             <el-button style="float:right;" @click="add">录入</el-button>
         </div>
-        <el-table :stripe=true :data="allGoodsData">
+        <el-table :stripe=true :data="allGoodsData.slice((currentPage-1)*pagesize,currentPage*pagesize)">
             <el-table-column label="商品名称" prop="goodsName"></el-table-column>
             <el-table-column label="编码" prop="goodsEncode"></el-table-column>
             <el-table-column label="单价" prop="goodsPrice"></el-table-column>
@@ -32,7 +32,14 @@
             </el-table-column>
         </el-table>
         <div class="region">
-            <el-pagination layout="prev, pager, next, jumper" :total="pageNumber"></el-pagination>
+            <el-pagination
+                layout="prev, pager, next, jumper"
+                :total="pageNumber"
+                @size-change="handleSizeChange"
+                @current-change="handleCurrentChange"
+                :current-page="currentPage"
+                :page-size="10">
+            </el-pagination>
         </div>
         <el-dialog :title="dialogName" :visible.sync="dialogVisible" @closed="editCancel">
             <div>
@@ -106,6 +113,9 @@ export default {
                     goodsTag: []
                 }
             ],
+            pagesize: 10,
+            total: 0,
+            currentPage: 1,
             searchInput: '',
             searchSelect: 'goodsName',
             dialogName: '',
@@ -162,6 +172,12 @@ export default {
         }
     },
     methods: {
+        handleSizeChange (val) {
+            this.pagesize = val;
+        },
+        handleCurrentChange (val) {
+            this.currentPage = val;
+        },
         edit: function (row) {
             this.dialogName = '编辑商品信息';
             this.dialogVisible = true;

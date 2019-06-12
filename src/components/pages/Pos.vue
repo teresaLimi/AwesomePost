@@ -97,7 +97,6 @@
 
 <script>
 /* eslint-disable */
-import axios from 'axios'
 export default {
     name: 'Pos',
     mounted: function () {
@@ -105,7 +104,7 @@ export default {
         document.getElementById('order-list').style.height = orderHeight + 'px';
     },
     created: function () {
-        axios.get('http://localhost:8080/static/data/allGoods.json')
+        this.$http.get('../../../static/data/allGoods.json')
         .then((response) => {
             this.allGoodsItems = response.data;
         })
