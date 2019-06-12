@@ -1,0 +1,121 @@
+[
+    {
+        "tabKey": "1hanbao",
+        "tabName": "hanbao",
+        "tabLabel": "汉堡",
+        "list": [
+            {
+                "key": "123",
+                "name": "香辣鸡腿堡",
+                "price": "13",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "1456x",
+                "name": "深海鳕鱼堡",
+                "price": "15",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "146",
+                "name": "哔哔哔堡",
+                "price": "55",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            }
+        ]
+    },{
+        "tabKey": "2hanbao",
+        "tabName": "xiaoshi",
+        "tabLabel": "小食",
+        "list": [
+            {
+                "key": "123",
+                "name": "上校鸡块",
+                "price": "13",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "1456d",
+                "name": "咸蛋黄披萨",
+                "price": "69",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "14",
+                "name": "奥利奥麦旋风",
+                "price": "16",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            }
+        ]
+    },{
+        "tabKey": "3hanbao",
+        "tabName": "yinliao",
+        "tabLabel": "饮料",
+        "list": [
+            {
+                "key": "123",
+                "name": "西瓜汁",
+                "price": "13",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "1456b",
+                "name": "雪碧",
+                "price": "8",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "14562",
+                "name": "可口可乐",
+                "price": "8",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "145",
+                "name": "芬达",
+                "price": "8",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "14565",
+                "name": "星冰乐",
+                "price": "27",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "145s6",
+                "name": "肥宅快乐水",
+                "price": "10",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "15",
+                "name": "星冰乐",
+                "price": "27",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "1s6",
+                "name": "肥宅快乐水",
+                "price": "10",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            }
+        ]
+    },{
+        "tabKey": "1taocan",
+        "tabName": "taocan",
+        "tabLabel": "套餐",
+        "list": [
+            {
+                "key": "123",
+                "name": "西瓜汁",
+                "price": "13",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "1456nn",
+                "name": "番茄牛腩",
+                "price": "456",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "1cds",
+                "name": "西瓜套餐",
+                "price": "156",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            },{
+                "key": "14bhg",
+                "name": "香菇肉丝套餐",
+                "price": "86",
+                "image": "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+            }
+        ]
+    }
+]
