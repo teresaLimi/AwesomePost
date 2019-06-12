@@ -5,6 +5,7 @@ import App from './App';
 import router from './router';
 import ElementUI from 'element-ui';
 import store from './vuex/store';
+import './assets/font/iconfont.css'
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
